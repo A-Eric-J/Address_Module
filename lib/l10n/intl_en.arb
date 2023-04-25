@@ -1,0 +1,19 @@
+{
+  "addressesText" : "Addresses",
+  "locationServiceText" : "Location Service",
+  "locationServicePermissionText" : "Location Service Permission",
+  "locationServiceLongText" : "Be Sure that your location is enable.",
+  "locationServicePermissionLongText" : "To enable location service, go to settings and enable this permission..",
+  "closeText" : "Close",
+  "myLocationText" : "My Location",
+  "locationRegistrationText" : "Submit Address",
+  "addressSearchText" : "Search Address",
+  "addressText" : "Address",
+  "emptyMyAddressListText" : "Your address list is empty.",
+  "numberText" : "No",
+  "unitText" : "Unit",
+  "addressListText" : "List of addresses",
+  "newAddressText" : "New Address",
+  "tryAgainText" : "Try Again",
+  "emptinessText" : "List is empty"
+}

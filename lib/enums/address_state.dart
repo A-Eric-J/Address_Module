@@ -1,0 +1,1 @@
+enum AddressState { updating, adding }

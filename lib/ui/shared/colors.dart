@@ -1,0 +1,67 @@
+import 'package:flutter/material.dart';
+
+//TODO in akhar
+const primaryDark = Color(0xFF40464B);
+const primaryGray = Color(0xFFCBCCD6);
+const disableTextFiledColor = Color(0xFFE5E8EE);
+const brandOrangeColor = Color(0xFFFCA600);
+const primaryErrorColor = Color(0xFFFF4647);
+const removeIconColor = Color(0xFFB3BABC);
+const backingIconColor = Color(0xFF5D6379);
+const backingButtonBorderColor = Color(0xFFD9DCE3);
+const outerCheckBoxColor = Color(0xFFE3E5ED);
+const citySearchTextFieldBorder = Color(0xFFB0B1B5);
+const primaryTextColor = Color(0xFF2A2A2A);
+const primaryGreenColor = Color(0xFF00BB61);
+const toDoColor = Color(0xFFE8EBF7);
+const previousColor = Color(0xFFC7CED7);
+const mainBackgroundColor = Color(0xFFF6F6F6);
+const mainBackgroundColorLight = Color(0xFFFAFAFA);
+const textGray = Color(0xFF7C7781);
+const starColor = Color(0xFFFBBB00);
+const accountCreditGradientSecondColor = Color(0xFF20BDC5);
+const accountCreditGradientFirstColor = Color(0xFF0DA3D2);
+const customTextFieldBorder = Color(0xFFB0B1B5);
+const sliverAppbarColor = Color(0xFFF2F2F2);
+const categoryAppbarStartColor = Color(0xFFD0EFEF);
+const categoryAppbarEndColor = Color(0xFFF5F7F9);
+const orderBackgroundButtonColor = Color(0x8BE3E5ED);
+const discountSucceedTextColor = Color(0xFF394249);
+const discountCodeCopyBackground = Color(0xFFF9F9F9);
+const copyingCodeTextColor = Color(0xFF8B8B8B);
+const brandMainColor = Color(0xff3B4BA3);
+const mapMarkerColor =  Color(0xFF6F7CBE);
+const boardsBackgroundColor = Color(0xFF7C7F95);
+const sarvariFirstColor = Color(0xFF7A7F99);
+const neutral200Color = Color(0xFFF2F3F7);
+const neutral300Color = Color(0xFFE1E4F0);
+const neutral400Color = Color(0xFFB4B7CC);
+const neutral500Color = Color(0xFF7A7F99);
+const neutral600Color = Color(0xFF424866);
+const neutral700Color = Color(0xFF1F2233);
+const softBlue = Color(0xFFE5EBFF);
+const lightBlue = Color(0xFF383870);
+const accentColor = Color(0xFF3B4BA3);
+
+const softRed = Color(0xFFFFE8ED);
+const customRed = Color(0xFFF95657);
+const softYellow = Color(0xFFFFF6DE);
+const yellow = Color(0xFFFFB900);
+const transparent = Colors.transparent;
+Color? firstShimmerColor = Colors.grey[500];
+Color? secondShimmerColor = Colors.grey[200];
+
+const secondaryDark = Color.fromRGBO(115, 118, 128, 1);
+const secondaryGray = Color.fromRGBO(190, 191, 196, 1);
+const white = Color.fromRGBO(255, 255, 255, 1.0);
+const lightGray = Color.fromRGBO(241, 242, 243, 1);
+const mainViewUnSelectedItemColor = Color(0xFF8D8D8D);
+const black = Color(0xFF000000);
+const focusedTextFiledColor = Color(0xFF434C6C);
+const greyColor = Color(0xFF919299);
+const midGreyColor = Color(0xFF919AA1);
+const bgBlue = Color(0xFFF5F7FC);
+const green = Color(0xFF006A62);
+const softGreen = Color(0xFFE6F5F4);
+const softGrey = Color(0xFFCAD7E0);
+

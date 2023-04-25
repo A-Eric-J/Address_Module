@@ -1,0 +1,19 @@
+{
+  "addressesText" : "آدرس ها",
+  "locationServiceText" : "سیستم موقعیت‌ یاب",
+  "locationServicePermissionText" : "مجوز سیستم موقعیت‌ یاب",
+  "locationServiceLongText" : "از فعال بودن موقعیت مکانی خود اطمینان حاصل کنید.",
+  "locationServicePermissionLongText" : "برای فعال کردن سرویس موقعیت‌ یاب به تنظیمات بروید و این مجوز را فعال نمایید.",
+  "closeText" : "بستن",
+  "myLocationText" : "موقعیت من",
+  "locationRegistrationText" : "ثبت آدرس",
+  "addressSearchText" : "جستجو آدرس",
+  "addressText" : "آدرس",
+  "emptyMyAddressListText" : "لیست آدرس های شما خالی می‌باشد.",
+  "numberText" : "پلاک",
+  "unitText" : "واحد",
+  "addressListText" : "لیست آدرس ها",
+  "newAddressText" : "آدرس جدید",
+  "tryAgainText" : "تلاش مجدد",
+  "emptinessText" : "لیست خالی می باشد"
+}
