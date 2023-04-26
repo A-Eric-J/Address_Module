@@ -27,7 +27,6 @@ class TextFormFieldWidget extends StatefulWidget {
   final VoidCallback? onTap;
   final VoidCallback? sufFxeOnTap;
   final bool? hasBorder;
-  final bool? isPassword;
   final TextAlign? textAlign;
   final TextDirection? textDirection;
   final double? radius;
@@ -56,7 +55,6 @@ class TextFormFieldWidget extends StatefulWidget {
     this.sufFxeOnTap,
     this.hasBorder = true,
     this.hintText = '',
-    this.isPassword = false,
     this.textAlign = TextAlign.right,
     this.textDirection,
     this.radius,
@@ -100,7 +98,7 @@ class _TextFormFieldWidgetState extends State<TextFormFieldWidget> {
               ),
             TextFormField(
               controller: widget.controller,
-              obscureText: obscure(),
+              obscureText: false,
               initialValue: widget.initialText,
               maxLines: widget.maxLines,
               minLines: widget.minLines,
@@ -167,47 +165,31 @@ class _TextFormFieldWidgetState extends State<TextFormFieldWidget> {
       if (widget.sufFix != null) {
         return widget.sufFix!;
       } else {
-        if (widget.isPassword!) {
-          return VisibilityPassword(
-            isVisible: obscureText,
-            onTap: () {
-              setState(() {
-                obscureText = !obscureText;
-              });
-            },
-          );
-        } else {
-          return Visibility(
-              visible: visibilityRemoveIconAsSuffix,
-              child: RemoveIcon(
-                onTap: () {
-                  setState(() {
-                    if (widget.sufFxeOnTap != null) {
-                      widget.sufFxeOnTap!();
-                    }
-                    if (widget.controller != null) {
-                      widget.controller!.clear();
-                      visibilityRemoveIconAsSuffix = false;
-                      widget.onChanged!('');
-                    }
-                  });
-                },
-              ));
-        }
+        return Visibility(
+            visible: visibilityRemoveIconAsSuffix,
+            child: RemoveIcon(
+              onTap: () {
+                setState(() {
+                  if (widget.sufFxeOnTap != null) {
+                    widget.sufFxeOnTap!();
+                  }
+                  if (widget.controller != null) {
+                    widget.controller!.clear();
+                    visibilityRemoveIconAsSuffix = false;
+                    widget.onChanged!('');
+                  }
+                });
+              },
+            ));
       }
     } else {
       return null;
     }
   }
 
-  bool obscure() {
-    return (widget.isPassword!) ? obscureText : false;
-  }
-
   TextInputAction textInputAction() {
     return TextInputAction.done;
   }
-
 
   TextInputType keyboardType() {
     return TextInputType.text;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:address_module/ui/shared/colors.dart';
 
-/// Collection of IconButtons  that are using in this app
+/// Collection of IconButtons that are using in this app
 
 class RemoveIcon extends StatelessWidget {
   final VoidCallback? onTap;
@@ -20,31 +20,6 @@ class RemoveIcon extends StatelessWidget {
         Icons.highlight_remove,
         size: size ?? width * 0.0446,
         color: color ?? removeIconColor,
-      ),
-    );
-  }
-}
-
-class VisibilityPassword extends StatelessWidget {
-  final VoidCallback? onTap;
-  final double? size;
-  final bool isVisible;
-
-  const VisibilityPassword(
-      {Key? key, this.onTap, this.size, required this.isVisible})
-      : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    var width = MediaQuery.of(context).size.width;
-    return InkWell(
-      splashColor: transparent,
-      highlightColor: transparent,
-      onTap: onTap,
-      child: Icon(
-        isVisible ? Icons.visibility_outlined : Icons.visibility_off_outlined,
-        size: size ?? width * 0.0533,
-        color: removeIconColor,
       ),
     );
   }
@@ -129,7 +104,7 @@ class SearchIcon extends StatelessWidget {
       onTap: onTap,
       child: Icon(
         Icons.search,
-        color: citySearchTextFieldBorder,
+        color: searchTextFieldBorder,
         size: width * 0.064,
       ),
     );

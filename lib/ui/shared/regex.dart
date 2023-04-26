@@ -6,6 +6,3 @@ RegExp alphabetCharactersRegExp = RegExp(r'[A-Za-z]');
 RegExp alphabetAndNumericRegExp = RegExp(r'[A-Za-z0-9]');
 RegExp allCharactersRegExp = RegExp(r'.*');
 RegExp priceCharactersRegExp = RegExp(r'[،0-9۰۱۲۳۴۵۶۷۸۹]');
-
-
-

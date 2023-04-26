@@ -6,7 +6,7 @@ import 'package:address_module/services/web_service.dart';
 class AddressService {
   /// Some codes are commented because the Api is not real,
   /// we have put these commented codes here for your knowledge
-  /// about how using address requests here
+  /// about how to use address requests here
   static Future<void> getAddresses(
     WebService webService,
     AddressProvider addressProvider,

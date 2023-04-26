@@ -16,24 +16,21 @@ class AddressProvider extends ChangeNotifier {
 
   var _addresses = <Address>[];
 
-  List<Address> get addresses =>  _addresses;
-
+  List<Address> get addresses => _addresses;
 
   void setAddresses(List<Address> newAddresses) {
     _addresses = newAddresses;
     notifyListeners();
   }
 
-
   void addNewAddress(Address newAddress) {
     _addresses.add(newAddress);
     notifyListeners();
   }
 
-  void removeAddressItem(Address address){
+  void removeAddressItem(Address address) {
     _addresses.remove(address);
     notifyListeners();
-
   }
 
   void clearAddressList() {
@@ -51,5 +48,4 @@ class AddressProvider extends ChangeNotifier {
     }
     notifyListeners();
   }
-
 }

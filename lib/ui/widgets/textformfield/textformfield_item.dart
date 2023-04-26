@@ -25,7 +25,6 @@ class TextFormFieldItem extends StatefulWidget {
   final VoidCallback? onTap;
   final VoidCallback? sufFxeOnTap;
   final bool? hasBorder;
-  final bool? isPassword;
   final TextAlign? textAlign;
   final double? radius;
   final bool? hasSuffix;
@@ -55,7 +54,6 @@ class TextFormFieldItem extends StatefulWidget {
     this.hasBorder = true,
     this.maxLength,
     this.hintText = '',
-    this.isPassword = false,
     this.textAlign = TextAlign.right,
     this.radius,
     this.hasSuffix = true,
@@ -110,7 +108,6 @@ class _TextFormFieldItemState extends State<TextFormFieldItem> {
         }
       },
       hasBorder: widget.hasBorder,
-      isPassword: widget.isPassword,
       textAlign: widget.textAlign,
       radius: widget.radius,
       hasSuffix: widget.hasSuffix,

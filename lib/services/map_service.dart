@@ -11,7 +11,7 @@ import 'package:address_module/services/web_service.dart';
 
 /// [MapService] uses map.ir Apis from here: https://map.ir/
 /// You can use googleMap Api instead because this Apis are for persian using
-/// if you don't have access to it you can try others ways like googleMap
+/// if you don't have access to it you can try other ways like googleMap
 class MapService {
   static final DeBouncer searchDeBouncer = DeBouncer(milliseconds: 500);
 

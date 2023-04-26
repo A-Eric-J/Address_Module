@@ -16,12 +16,14 @@ class SearchBar extends StatelessWidget {
 
   const SearchBar(
       {Key? key,
-        this.padding,
-        this.onChanged,
-        required this.textController,
-        required this.labelText,
-        this.backgroundColor,
-        this.borderColor, this.enable = true, this.onTap})
+      this.padding,
+      this.onChanged,
+      required this.textController,
+      required this.labelText,
+      this.backgroundColor,
+      this.borderColor,
+      this.enable = true,
+      this.onTap})
       : super(key: key);
 
   @override

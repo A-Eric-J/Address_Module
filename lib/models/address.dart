@@ -64,6 +64,8 @@ class Address {
       postalCode.hashCode;
 }
 
+/// these are persian address models and you can change them or use
+/// the model according your address name in the server
 var addressMock = [
   {
     'id': 1,

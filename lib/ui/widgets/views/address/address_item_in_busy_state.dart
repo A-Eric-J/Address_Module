@@ -56,15 +56,17 @@ class AddressItemInBusyState extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   WidgetInBusyState(
-                    height:  width * 0.1013,
-                    width:  width * 0.1013,
-                    radius:  width * 0.1013,
+                    height: width * 0.1013,
+                    width: width * 0.1013,
+                    radius: width * 0.1013,
                   ),
-                  SizedBox(width: width * 0.02,),
+                  SizedBox(
+                    width: width * 0.02,
+                  ),
                   WidgetInBusyState(
-                    height:  width * 0.1013,
-                    width:  width * 0.1013,
-                    radius:  width * 0.1013,
+                    height: width * 0.1013,
+                    width: width * 0.1013,
+                    radius: width * 0.1013,
                   ),
                 ],
               ),
